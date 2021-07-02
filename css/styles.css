@@ -60,7 +60,9 @@ img {
 .features-list,
 .work-list,
 .team-list,
-.footer-contacts {
+.footer-contacts,
+.clients-list,
+.social-list {
   list-style: none;
 }
 
@@ -140,8 +142,28 @@ img {
   color: var(--text-color);
 }
 
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tel-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 .cont-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-contacts-link {
+  padding: 0;
 }
 
 .header-contacts-link:hover,
@@ -222,6 +244,19 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.features-icon-thumb {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
 }
 
 /*======WORK======*/
@@ -305,6 +340,86 @@ img {
   color: var(--text-color);
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+
+/*======CLIENTS======*/
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--text-color-main);
+margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-item-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border-style: solid;
+  border-color: #AFB1B8;
+  border-radius: 4px;
+  fill: #AFB1B8;
+  padding: 16px 32px;
+  
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*======FOOTER======*/
 
 .footer {
@@ -360,6 +475,24 @@ img {
 .footer-contacts-link:focus {
   color: var(--text-color-hvl);
 }
+
+.footer-container {
+  display: flex;
+}
+
+.right-footer-title {
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--text-color-white);
+text-transform: uppercase;
+}
+
+.right-footer {
+  margin-left: 70px;
+}
+
 
 /*======PORTFOLIO-PAGE======*/
 
